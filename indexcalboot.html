@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!--  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/csscalboot.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row name">
+            <div class="col-sm-6">Calculator</div>
+            <div class="col-sm-3 ml-auto p-0 h-100">
+                <form class="form-horizontal d-flex justufy-content-right">
+                    <button type="button" class=" close mr-3">&ndash;</button>
+                    <button type="button" class=" close mr-3">&#9937;</button>
+                    <button type="button" class="close">&times;</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row menu pl-sm-0">
+            <div class="col-sm-2 pl-sm-0">
+                <select class="form-control border-0" value="&#9776;">
+                    <option>&#9776;</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <div class="col-sm-6 text-left pl-0">Standart</div>
+            <div class="col-sm-4 text-right pr-1">
+                <button type="button" class="border-0 reload"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col p-0 w-100 h-140">
+                <form class="form">
+                    <input disabled type="text" class="form-control pl-sm-0 border-0 m-0-auto rounded-0 w-100" id="number" value="0"> </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 p-0 text-center">
+                <form class="form-horizontal d-flex">
+                    <div class="form-group m-0 d-flex vertical-content-center">
+                        <button type="button" class=" border-0 MC opac">MC</button>
+                        <button type="button" class=" border-0  MC opac">MR</button>
+                        <button type="button" class="border-0  MC">M+</button>
+                        <button type="button" class=" border-0  MC">M-</button>
+                        <button type="button" class="border-0 MC opac">MS</button>
+                        <button type="button" class="border-0 MC opac">M*</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 pl-sm-0 text-center">
+                <form action="" class="form d-flex num">
+                    <button type="button" class="mr-1 mb-1 ml-1 border-0 act">%</button>
+                    <button type="button" class=" mr-1 border-0 act">&radic;</button>
+                    <button type="button" class=" mr-1 border-0 act">x2</button>
+                    <button type="button" class=" mr-1 border-0 act">&frac12;</button>
+                    <button type="button" class="CeBtn  mr-1 mb-1 ml-1 border-0 act" id="ce">CE</button>
+                    <button type="button" class="CeBtn  mr-1 border-0 act" id="c">C</button>
+                    <button id="arrow" type="button" class=" mr-1 border-0 act">&#9668;</button>
+                    <button type="button" class="operation  mr-1 border-0 act">/</button>
+                    <button type="button" class="number  mr-1 mb-1 ml-1 border-0 for " value="7">7</button>
+                    <button type="button" class="number  mr-1 border-0 for" value="8">8</button>
+                    <button type="button" class="number  mr-1 border-0 for" value="9">9</button>
+                    <button type="button" class="operation  mr-1 border-0 act">*</button>
+                    <button type="button" class=" number  mr-1 mb-1 ml-1 border-0 for" value="4">4</button>
+                    <button type="button" class="number  mr-1 border-0 for" value="5">5</button>
+                    <button type="button" class="number  mr-1 border-0 for" value="6">6</button>
+                    <button type="button" class="operation  mr-1 border-0 act">-</button>
+                    <button type="button" class="number  mr-1 mb-1 ml-1 border-0 for" value="1">1</button>
+                    <button type="button" class="number  mr-1 border-0 for" value="2">2</button>
+                    <button type="button" class="number mr-1 border-0 for" value="3">3</button>
+                    <button type="button" class="operation  mr-1 border-0 act" value="+">+</button>
+                    <button type="button" class="submit mr-1 ml-1 border-0 act" id="plusmn">&plusmn;</button>
+                    <button type="button" class="number  mr-1 border-0 for" value="0">0</button>
+                    <button type="button" class="  mr-1 border-0 act" id="decimal">&sdot;</button>
+                    <button type="button" class="operation mr-1 border-0 act" value="=" id="res">=</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js " integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js " integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k " crossorigin="anonymous "></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

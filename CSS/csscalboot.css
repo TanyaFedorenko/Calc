@@ -1,0 +1,91 @@
+/*Общие настройки*/
+
+.container {
+    width: 346px;
+    margin: 0 auto;
+    font-size: 30px;
+    background-color: #e9e9e9;
+}
+
+button:hover{
+    background-color: #c5c5c5;
+}
+
+/*Название*/
+
+.name {
+    height: 30px;
+    font-size: 14px;
+}
+
+.close {
+    font-size: 25px;
+    opacity: 1;
+}
+
+
+/*меню*/
+
+.menu {
+    height: 46px;
+}
+
+.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #e9e9e9;
+    box-shadow: none;
+}
+
+
+
+.reload {
+    background: url(../img/reload.png) no-repeat top center/cover;
+    height: 25px;
+    width: 25px;
+    background-color: #e9e9e9;
+}
+
+/*окно ввода*/
+#number {
+  
+    height: 100px;
+    box-shadow: none;
+    background-color: #e9e9e9;
+    text-align: right;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/*МС*/
+.MC {
+    width: 56px;
+    height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 2px 2px 2px 0;
+    background-color: #e9e9e9;
+}
+.opac {
+    opacity: 0.6;
+}
+
+/*кнопки*/
+.num {
+    width: 346px;
+    flex-wrap: wrap;
+}
+.for {
+    background-color: #fbfbfb;
+    font-weight: 600;
+}
+.act {
+    background-color: #f4f4f4;
+    opacity: 0.6;
+    outline: none;
+}
+.num button {
+    width: 81px;
+    height: 60px;
+}
